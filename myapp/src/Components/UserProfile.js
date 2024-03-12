@@ -71,6 +71,7 @@ const UserProfile = () => {
               onChange={(e) => setUserProfile({ ...userProfile, email: e.target.value })}
             />
             <br />
+            <br />
             <label>Phone Number:</label>
             <input
               type="text"
